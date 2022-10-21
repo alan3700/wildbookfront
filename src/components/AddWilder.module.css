@@ -1,0 +1,22 @@
+h3 {
+  margin: 10px;
+  text-align: center;
+}
+.label {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.input {
+  padding: 1em 1.5em;
+  border-radius: 1rem;
+  background-color: #eaeef9;
+  width: 100%;
+  outline: 2px solid transparent;
+  transition: outline 0.2s ease-in-out;
+}
+
+.button {
+  composes: button from "./Wilder.module.css";
+}

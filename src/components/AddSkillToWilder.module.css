@@ -1,0 +1,9 @@
+.input {
+  composes: input from "./AddWilder.module.css";
+}
+.button {
+  composes: button from "./Wilder.module.css";
+}
+.label {
+  composes: label from "./AddWilder.module.css";
+}

@@ -1,0 +1,15 @@
+.button {
+  composes: button from "./Wilder.module.css";
+  color: black;
+}
+
+.skills {
+  composes: skills from "./Wilder.module.css";
+}
+
+.input {
+  composes: input from "./AddWilder.module.css";
+}
+.label {
+  composes: label from "./AddWilder.module.css";
+}
